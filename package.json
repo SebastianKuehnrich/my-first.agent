@@ -1,0 +1,19 @@
+{
+  "name": "mein-first-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "bun run main.ts"
+  },
+  "dependencies": {
+    "openai": "^4.52.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
+
